@@ -8,6 +8,7 @@
 <body>
     <form action="data.php" method="GET">
         <input type="text" placeholder="Scrivi il tuo nome" name="nome">
+        <input type="password" placeholder="Scrivi una parola da censurare" name="censurata">
         <button>Submit</button>
     </form>
 </body>

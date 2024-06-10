@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <?php 
 $nome = $_GET['nome'];
-$str = $nome
+$censurata = $_GET['censurata'];
+
 ?>
 <html lang="en">
 <head>
@@ -12,7 +13,8 @@ $str = $nome
 <body>
     <h1>Nome:</h1>
     <ul>
-        <li><?php echo strlen($str);?></li>
+        <li><?php echo $nome;?></li>
+        <li>Il paragrafo e` lungo <?php echo strlen($censurata);?> caratteri</li>
     </ul>
 </body>
 </html>
